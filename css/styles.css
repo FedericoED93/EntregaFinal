@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+
+:root {
+    --color--primario: #19CECE;
+    --color--secundario: #FBDD00;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+
+
+/* Header */
+
+.navbar-mod {
+    background-color: var(--color--primario);
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    justify-content: center;
+}
+
+.navbar-mod img {
+    width: 20rem;
+    height: 15rem;
+}
+
+h1{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: #FF5858;
+    font-weight:bold;
+}
+
+.nav-item-mod {
+    margin-top: 2.5rem;
+    margin-right: 3.5rem;
+    margin-bottom: 5rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: #FBDD00;
+    border-radius: 50%;
+    color: #7D7B76;
+    font-weight: bold
+}
+
+#pi {
+    background-color: #88CFED;
+}
+
+#jm {
+    background-color: #88ED8C;
+}
+
+#rom {
+    background-color: #FFFE69;
+}
+
+#cons {
+    background-color: #FF952A;
+}
+
+#cs {
+    background-color: #8FECD3;
+}
+
+.nav-item-mod:hover {
+    transform: scale(1.5);
+    transition: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);   
+}
+
+.nav-item-mod{
+    text-align: center;
+}
+
+.nav-item-mod a{
+    color: #6b6b6b;
+}
+
+.nav-item-mod a:hover{
+    color: cornflowerblue
+}
+
+.article_main{
+        --bs-gutter-x: 0;
+}
+
+.div_main h2{
+    padding-top: 10%;
+    margin-left: 1rem;
+    width: 80%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.div_main p{
+    padding-top: 5%;
+    margin-left: 1rem;
+    width: 80%;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.div_main{
+    background-color: var(--color--primario);
+    color: white;
+    font-size: 0.8rem;
+    --bs-gutter-x: 0;
+}
+
+.div_main-img{
+    object-fit: cover;
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    --bs-gutter-x: 0;
+}
+
+.div_main-img img{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.footer-1{
+    background-color: var(--color--secundario);
+}
+
+.footer_search{
+    padding-top: 30%;
+}
+
+.footer_button{
+    border-color: var(--color--primario);
+}
+
+.footer_button:hover{
+    background-color: var(--color--primario);
+    border-color: #7D7B76;
+}
+
+.footer-2{
+    display: none;
+}
+
+/* ----------------primera infancia */
+
+.nav_link-mod{
+    margin-left: 2rem;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.nav_link-mod:hover{
+    transform: scale(1.05);
+}
+
+.toggler-mod{
+    background-color: var(--color--primario);
+    border-color: var(--color--secundario);
+}
+
+.card-main-row{
+    --bs-gutter-x: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+.card-back {
+    background-image: url(../assets/TRAMA-BLANCA.png);
+    background-color: var(--color--primario)
+}
+
+.card-mod{
+    --bs-gutter-x: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 28rem;
+}
+
+.card-mod-img{
+  object-fit: contain;
+  height: 20rem;
+  width: 100%;
+  
+}
+
+.titulo_primerainfancia{
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #88CFED;
+    font-weight:bold;
+    text-align: center;
+    --bs-gutter-y:0;
+}
+
+.card-desc{
+    color: #7D7B76;
+}
+
+.btn-carrito{
+    margin-top: 1rem;
+    background-color: var(--color--secundario);
+    color: 656565;
+    font-weight: bold;
+}
+
+.btn-carrito:hover{
+    transform: scale(1.05);
+    color: cornflowerblue;
+}
+
+/* -------------Juegos de mesa */
+
+.titulo_juegosdemesa{
+    color: #88ED8C;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-weight:bold;
+    text-align: center;
+    --bs-gutter-y:0;
+}
+
+.titulo_construccion{
+    color: #FF952A;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-weight:bold;
+    text-align: center;
+    --bs-gutter-y:0;
+}
+
+
+
+.titulo_ciencia{
+    color: #8FECD3;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-weight:bold;
+    text-align: center;
+    --bs-gutter-y:0;
+}
+
+/* --------------Rompecabezas */
+
+.titulo_rompecabezas{
+    color: var(--color--secundario);
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-weight:bold;
+    text-align: center;
+    --bs-gutter-y:0;
+}
+
+@media (max-width: 991.98px){
+
+    .footer-1{
+        display: none;
+    }
+
+    .footer-2{
+        display: block;
+        background-color: var(--color--secundario);
+    }
+    
+    .navbar-brand img{
+        width: 100%;
+    }
+
+    .footer-2-mod a{
+        color: #7D7B76;
+    }
+
+    .footer-2-mod a:link{
+        color: #7D7B76;
+    }
+
+    .footer-2-mod a:hover{
+        font-weight: bold;
+    }
+
+    .footer-2-mod a:visited{
+        color: #FF5858;
+    }
+
+    .index-img{
+        display: none;
+    }
+
+    .article_main_img{
+      width: 100%;
+    }
+}
